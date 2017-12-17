@@ -15,6 +15,7 @@
 		846E52571FE713A400B37F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846E52551FE713A400B37F4C /* LaunchScreen.storyboard */; };
 		846E52621FE713A400B37F4C /* SeeFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E52611FE713A400B37F4C /* SeeFoodTests.swift */; };
 		846E526D1FE713A400B37F4C /* SeeFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E526C1FE713A400B37F4C /* SeeFoodUITests.swift */; };
+		846E527B1FE7145600B37F4C /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 846E527A1FE7145600B37F4C /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		846E52681FE713A400B37F4C /* SeeFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846E526C1FE713A400B37F4C /* SeeFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFoodUITests.swift; sourceTree = "<group>"; };
 		846E526E1FE713A400B37F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846E527A1FE7145600B37F4C /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		846E52481FE713A400B37F4C /* SeeFood */ = {
 			isa = PBXGroup;
 			children = (
+				846E527A1FE7145600B37F4C /* Inceptionv3.mlmodel */,
 				846E52491FE713A400B37F4C /* AppDelegate.swift */,
 				846E524B1FE713A400B37F4C /* ViewController.swift */,
 				846E524D1FE713A400B37F4C /* Main.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				846E524C1FE713A400B37F4C /* ViewController.swift in Sources */,
+				846E527B1FE7145600B37F4C /* Inceptionv3.mlmodel in Sources */,
 				846E52521FE713A400B37F4C /* SeeFood.xcdatamodeld in Sources */,
 				846E524A1FE713A400B37F4C /* AppDelegate.swift in Sources */,
 			);
